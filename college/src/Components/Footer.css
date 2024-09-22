@@ -1,0 +1,70 @@
+html, body {
+    height: 100%; /* Make the body take full height */
+    margin: 0;    /* Remove default margin */
+  }
+  
+  .footer {
+    background-color: #2e2b2b;
+    color: #fff;
+    margin: 0;
+    width: 100%; /* Ensure it spans the full width */
+    padding: 20px 0; /* Add padding for spacing */
+    position: relative; /* Position relative to its normal flow */
+    bottom: 0; /* Position it at the bottom */
+  }
+  
+  .part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+  }
+  
+  .subpart {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .subpart a {
+    padding-left: 35px;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .footer-social-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Space between columns */
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .footer-links li {
+    padding: 5px 0; /* Add some spacing between the items */
+  }
+  
+  .footer-copyright {
+    text-align: center; /* Center the copyright text */
+    margin-top: 10px; /* Add some margin for spacing */
+  }
+  

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Introduction to Programming",
+      "description": "A beginner-friendly course that introduces the fundamentals of programming using Python. Ideal for those new to coding.",
+      "timeline": "6 weeks",
+      "price": "$199"
+    },
+    {
+      "id": 2,
+      "name": "Advanced Web Development",
+      "description": "An in-depth course covering advanced topics in web development, including React, Node.js, and database integration.",
+      "timeline": "8 weeks",
+      "price": "$299"
+    },
+    {
+      "id": 3,
+      "name": "Data Science with R",
+      "description": "Learn data analysis and visualization techniques using R. This course covers data manipulation, statistical analysis, and reporting.",
+      "timeline": "10 weeks",
+      "price": "$349"
+    },
+    {
+      "id": 4,
+      "name": "Machine Learning Basics",
+      "description": "Get started with machine learning by understanding the core concepts and algorithms. This course covers supervised and unsupervised learning methods.",
+      "timeline": "8 weeks",
+      "price": "$279"
+    },
+    {
+      "id": 5,
+      "name": "UX/UI Design",
+      "description": "A comprehensive course on user experience and user interface design. Learn how to create intuitive and aesthetically pleasing designs.",
+      "timeline": "7 weeks",
+      "price": "$249"
+    }
+  ]
+  

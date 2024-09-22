@@ -1,0 +1,38 @@
+.course-details {
+    background-color: #4c4141;
+    margin: 0;
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  .course-details ul {
+    padding: 0;
+    list-style: none; /* Remove default list styling */
+  }
+  
+  .course-details ul li {
+    margin-bottom: 20px; /* Add space between list items */
+    width: 500px;
+  }
+  
+  .course-details .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for card */
+  }
+  
+  .course-details .card.expanded {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to card */
+  }
+  
+  .course-details .more-info {
+    max-height: 0; /* Initially hidden */
+    opacity: 0;
+    overflow-y: hidden; /* Hide vertical overflow */
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .course-details .more-info.visible {
+    max-height: 200px; /* Adjust based on content */
+    opacity: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-top: 10px; /* Optional: add some space between content and top border */
+  }
+  
